@@ -1,6 +1,6 @@
 .about {
     background-color: var(--bg-main-grey);
-    padding: 60px 30px 100px 30px;
+    padding: 60px 30px 100px;
     text-align: center;
     color: var(--color-main-black);
 }
@@ -37,7 +37,6 @@
 }
 
 @media (max-width: 480px) {
-
     .about-subtitle-ru,
     .about-subtitle-en,
     .about-description-ru,

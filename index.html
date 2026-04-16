@@ -6,15 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="icon" href="/assets/favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/favicon.png" type="image/png">
     <link rel="stylesheet" href="index.css">
     <title>Aivazovski</title>
 </head>
 
 <body>
-
     <header class="header" aria-label="header">
         <div class="container">
             <nav class="nav" aria-label="header navigation">
@@ -66,17 +64,16 @@
                     <a href="#contacts-id" class="mobile-navigation-link" aria-label="link to contacts">Contacts</a>
                 </li>
             </ul>
+
+            <label for="toggler-id" class="mobile-navigation-close" aria-label="open-close mobile-navigation menu">
+                <svg class="mobile-navigation-cross" aria-label="cross icon">
+                    <use href="assets/sprites.svg#cross-icon"></use>
+                </svg>
+            </label>
         </nav>
-
-         <label for="toggler-id" class="mobile-navigation-close" aria-label="open-close mobile-navigation menu">
-            <svg class="mobile-navigation-cross" aria-label="cross icon">
-                <use href="assets/sprites.svg#cross-icon"></use>
-            </svg>
-        </label>
-
     </div>
 
-    <main aria-label="home">
+    <main aria-label="main">
         <section class="home" aria-label="home section" id="home-id">
             <div class="container">
                 <h1 class="home-title" aria-label="title">Ivan Constantinovich Aivazovski</h1>
@@ -109,30 +106,25 @@
 
         <section class="history" aria-label="history section" id="history-id">
             <div class="container">
-                <h2 class="history-title" aria-label="history title">History</h2>
-                <img src="assets/webp/дом_где_родился_айвазовский 1history.webp" alt="house of Aivazovsky"
-                    class="history-photo">
-                <p class="history-description" aria-label="history description">Дом в котором родился Айвазовский | The
-                    house where Aivazovsky was born </p>
+                <h2 class="history-title">History</h2>
+                <img src="assets/webp/дом_где_родился_айвазовский 1history.webp" alt="house of Aivazovsky" class="history-photo">
+                <p class="history-description" aria-label="history description">
+                    Дом в котором родился Айвазовский | The house where Aivazovsky was born
+                </p>
             </div>
         </section>
 
         <section class="portfolio" aria-label="portfolio section" id="portfolio-id">
             <div class="container">
-                <h2 class="portfolio-title" aria-label="portfolio title">Portfolio</h2>
-                <img src="assets/webp/Зимний обоз в пути (картина Ивана Айвазовского, 1857) 1.webp"
-                    alt="Winter wagon train on the way" class="portfolio-picture">
-                <p class="portfolio-description" aria-label="picture 1 description">Зимний обоз в пути, 1857 г. |
-                    Winter wagon train on the way, 1857</p>
+                <h2 class="portfolio-title">Portfolio</h2>
+                <img src="assets/webp/Зимний обоз в пути (картина Ивана Айвазовского, 1857) 1.webp" alt="Winter wagon train on the way" class="portfolio-picture">
+                <p class="portfolio-description" aria-label="picture 1 description">Зимний обоз в пути, 1857 г. | Winter wagon train on the way, 1857</p>
                 <img src="assets/webp/Айвазовский_Радуга_1873 1.webp" alt="Rainbow" class="portfolio-picture">
                 <p class="portfolio-description" aria-label="picture 2 description">Радуга, 1873 г. | Rainbow, 1873</p>
-                <img src="assets/webp/неаполитанский_залив_утром_1893 1.webp" alt="ulf of Naples in the morning"
-                    class="portfolio-picture">
-                <p class="portfolio-description" aria-label="picture 3 description">Неаполитанский залив утром, 1893 г.
-                    | Gulf of Naples in the morning, 1893</p>
+                <img src="assets/webp/неаполитанский_залив_утром_1893 1.webp" alt="Gulf of Naples in the morning" class="portfolio-picture">
+                <p class="portfolio-description" aria-label="picture 3 description">Неаполитанский залив утром, 1893 г. | Gulf of Naples in the morning, 1893</p>
             </div>
         </section>
-
     </main>
 
     <footer class="contacts" aria-label="contacts section" id="contacts-id">
@@ -142,7 +134,7 @@
                 <a href="https://ayvazovskiy.su" class="button-link" target="_blank">ayvazovskiy.su</a>
             </button>
 
-            <address class="social" aria-label="social icons">
+            <address class="socials" aria-label="social icons">
                 <a href="https://youtube.com" target="_blank" aria-label="link to youtube">
                     <svg class="social-icon" aria-label="youtube icon">
                         <use href="assets/sprites.svg#youtube-icon"></use>
@@ -165,7 +157,9 @@
                 </a>
             </address>
 
-            <p class="contacts-info" aria-label="just for notice">More works you can see in these social networks</p>
+            <p class="contacts-info" aria-label="just for notice">
+                More works you can see in these social networks
+            </p>
         </div>
     </footer>
 </body>
